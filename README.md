@@ -13,8 +13,24 @@ Fill the content of the methods `play`, `check_for_winner`, `new_game` and the c
 
 ```python
 def play(position):
+    board = ["[_]""[_]""[_]""[_]""[_]"
+             "[_]""[_]""[_]""[_]""[_]"
+             "[_]""[_]""[_]""[_]""[_]"
+             "[_]""[_]""[_]""[_]""[_]"
+             "[_]""[_]""[_]""[_]""[_]"
+    ]
+    print(board)
+
+
+
 def check_for_winner():
+
+
 def new_game():
+
+
+play()
+
 ```
 
 1. There are two players `X` and `O`.
@@ -39,3 +55,5 @@ $ git clone https://github.com/breatheco-de/exercise-tictactoe-cli-python
 ```bash
 $ python3 app.py
 ```
+
+
